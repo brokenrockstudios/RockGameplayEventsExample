@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "RockEventsExample",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -10,6 +20,10 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "RockGameplayEvents",
+			"Enabled": true
 		}
 	]
 }
